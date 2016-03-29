@@ -1,0 +1,2 @@
+#!/bin/bash          
+java -Djava.security.policy=policy -cp build/classes server.HelloServer 
