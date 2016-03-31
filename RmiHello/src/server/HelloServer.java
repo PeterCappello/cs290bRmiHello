@@ -10,7 +10,7 @@ class HelloServer extends UnicastRemoteObject implements Hello {
     HelloServer() throws RemoteException {} // "export" HelloServer
 
     @Override
-    public String hello() { return "Goodby world!"; }
+    public String hello() { return "Hello world!"; }
 
     public static void main( String[] args ) throws RemoteException {
         // construct & set a security manager (unnecessary in this case)

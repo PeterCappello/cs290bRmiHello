@@ -1,2 +1,3 @@
-javac -d build/classes src/api/Hello.java src/server/HelloServer.java src/client/HelloClient.java
+#!/bin/bash
+javac -d build/classes  src/api/*.java src/server/*.java src/client/*.java
 
